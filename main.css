@@ -1,7 +1,77 @@
 body {
-    backgroud-color: lightblue;
+    background-color: rgba(238, 119, 119, 0.399);
+    margin-top: 42px;
 }
 
 header {
+    position: fixed;
+    display: inline-block;
+    background-color: lightblue;
+    top: 0;
+    left: 0;
+    height: 42px;
+    width: 100%;
+    z-index: 10;
+}
 
+.timeline-buttons-big {
+
+}
+
+.timeline-buttons-small {
+
+}
+
+#main-container {
+    display: inline-block;
+    position: relative;
+    width: 851px;
+    height: 3000px;
+    left: 50px;
+}
+
+#cover-photo {
+    position: absolute;
+    background-color: rgb(0, 157, 255);
+    height: 315px;
+    width: 851px;
+    text-align: center;
+}
+
+#profile-picture {
+    position: relative;
+    background-color: rgb(0, 136, 255);
+    height:168px;
+    width:168px;
+    top: 157px;
+    left: 17px;
+    z-index: 0;
+}
+
+/* Note: There are 17px in-between the widgets-box, timeline-bar, 
+and the activity-box. */
+
+#timeline-bar {
+    height: 43px;
+    width: 851px;
+    background-color: rgb(83, 140, 226);
+    position: absolute;
+    top: 315px;
+}
+
+#widgets-box {
+    background-color: lightskyblue;
+    position:absolute;
+    width: 297px;
+    height: 2500px;
+    top: 375px;
+}
+
+#activity-box {
+    position: absolute;
+    background-color: lightskyblue;
+    width: 537px;
+    height: 2500px;
+    top: 375px;
+    left: 314px;
 }
