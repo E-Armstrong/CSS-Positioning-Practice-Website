@@ -1,25 +1,49 @@
 body {
-    background-color: rgba(238, 119, 119, 0.399);
+    background-color: #E9EBEE;
     margin-top: 42px;
 }
 
 header {
     position: fixed;
     display: inline-block;
-    background-color: lightblue;
+    background-color: #4469AF;
     top: 0;
     left: 0;
     height: 42px;
     width: 100%;
-    z-index: 10;
+    z-index: 30;
 }
 
-.timeline-buttons-big {
-
+#main-container #cover-photo #timeline-bar .timeline-buttons-big {
+    box-sizing: border-box;
+    display: inline-block;    
+    height: 43px;
+    width: 95px;
+    border-right-color: gray;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-left-width: 2px;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #385A97;
 }
 
-.timeline-buttons-small {
-
+#main-container #cover-photo #timeline-bar .timeline-buttons-small {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 43px;
+    width: 80px;
+    border-right-color: gray;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-left-width: 2px;
+    font-size: 16px; 
+    vertical-align: -webkit-baseline-middle; 
+    color: #385A97;   
 }
 
 #main-container {
@@ -38,14 +62,17 @@ header {
     text-align: center;
 }
 
+
+
 #profile-picture {
     position: relative;
-    background-color: rgb(0, 136, 255);
     height:168px;
     width:168px;
     top: 157px;
     left: 17px;
-    z-index: 0;
+    z-index: 20;
+    overflow: hidden;
+    border: 5px solid rgb(252, 252, 252);
 }
 
 /* Note: There are 17px in-between the widgets-box, timeline-bar, 
@@ -54,9 +81,11 @@ and the activity-box. */
 #timeline-bar {
     height: 43px;
     width: 851px;
-    background-color: rgb(83, 140, 226);
+    background-color: #FFFFFF;
     position: absolute;
     top: 315px;
+    text-align: center;
+    font-size: 0px;
 }
 
 #widgets-box {
@@ -74,4 +103,19 @@ and the activity-box. */
     height: 2500px;
     top: 375px;
     left: 314px;
+    overflow: auto;
+}
+
+#selfie {
+    height: 100%;
+    width: 120%;
+    transform: translateX(-5%);
+}
+
+#banner-photo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    right: 0px;
 }
