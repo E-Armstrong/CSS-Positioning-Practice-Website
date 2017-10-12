@@ -14,6 +14,63 @@ header {
     z-index: 30;
 }
 
+#header-photo {
+    width: 100%;
+}
+
+#main-container #cover-photo #widgets-box .widget-small {
+    display: inline-block;
+   /* I thought this would work!
+     padding-top:6.5px;
+    padding-bottom: 6.5px; */
+    width: 297px;
+    height: 51px;
+    background-color: #FFFFFF;
+   /* I thought this would work!
+    border-bottom-color: #E9EBEE;
+    border-bottom-width: 17px; */
+    
+}
+
+#main-container #cover-photo #widgets-box .widget-large {
+    display: inline-block;
+    width: 297px;
+    height: 545px;
+    background-color: #FFFFFF;
+}
+
+#main-container #cover-photo #widgets-box .widget-spacer {
+    display: inline-block;
+    background-color:#E9EBEE;
+    width: 297px;
+    height: 17px;
+}
+
+#main-container #cover-photo #activity-box .post-box {
+    display: inline-block;
+    width: 538px;
+    height: 153px;
+    background-color: #FFFFFF;
+    
+    
+}
+
+#main-container #cover-photo #activity-box .personal-activity {
+    display: inline-block;
+    padding-top:6.5px;
+    padding-bottom: 6.5px;
+    width: 538px;
+    height: 545px;
+    background-color: #FFFFFF;
+}
+
+#main-container #cover-photo #activity-box .activity-spacer {
+    display: inline-block;
+    background-color:#E9EBEE;
+    width: 538px;
+    height: 17px;
+}
+
 #main-container #cover-photo #timeline-bar .timeline-buttons-big {
     box-sizing: border-box;
     display: inline-block;    
@@ -50,7 +107,7 @@ header {
     display: inline-block;
     position: relative;
     width: 851px;
-    height: 3000px;
+    height: 1100px;
     left: 50px;
 }
 
@@ -89,16 +146,16 @@ and the activity-box. */
 }
 
 #widgets-box {
-    background-color: lightskyblue;
+    background-color: #E9EBEE;
     position:absolute;
     width: 297px;
-    height: 2500px;
+    height: 1050px;
     top: 375px;
 }
 
 #activity-box {
     position: absolute;
-    background-color: lightskyblue;
+    background-color: #E9EBEE;
     width: 537px;
     height: 2500px;
     top: 375px;
